@@ -51,20 +51,5 @@ docker compose -f docker-compose.local.yml up --build
 
 ---
 
-## Deployment (Google Cloud)
-
-The project is fully optimized for GCP. Refer to the [GCP_DEPLOYMENT.md](GCP_DEPLOYMENT.md) guide for instructions on:
-- Setting up VPC Firewalls.
-- Creating Compute Engine VMs.
-- Launching the production Docker stack.
-
----
-
-## Key Features
-- **Print & PDF Export**: Professional invoice generation with printer-friendly CSS.
-- **Search Debouncing**: Optimized frontend search (500ms delay) to prevent API flooding.
-- **Privacy Headers**: Strict `Cache-Control` headers at the browser level to ensure data accuracy.
-
----
 
 Built for Chesa Dental Care.
